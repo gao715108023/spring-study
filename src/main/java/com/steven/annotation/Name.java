@@ -11,6 +11,6 @@ import java.lang.annotation.*;
 @Documented
 public @interface Name {
 
-    String originate();
-    String community();
+    public String originate();
+    public String community();
 }
